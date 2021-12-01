@@ -9,11 +9,11 @@ int main(void)
    {
        for (int j = 0; j<Size-1-i; j++)
        {
-           if(a[i]>a[i+1])
+           if(a[j]>a[j+1])
            {
-               k = a[i+1];
-               a[i+1] = a[i];
-               a[i] = k;
+               k = a[j+1];
+               a[j+1] = a[j];
+               a[j] = k;
            }
        }
        
